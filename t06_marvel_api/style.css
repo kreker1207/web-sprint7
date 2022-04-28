@@ -1,0 +1,12 @@
+div {
+    width: 100%;
+    border: 1px solid rgb(255, 154, 154);
+    color: rgb(200, 241, 255);
+    padding: 10px;
+    background-color: #5e5efc;
+    margin: 2px;
+    border-radius: 15px;
+}
+span {
+    color: rgb(205, 247, 205);
+}
