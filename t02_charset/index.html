@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charset</title>
+</head>
+<body>
+    <h1>Charset</h1>
+    <form action="/" method="POST">
+    Change charset: <input type="text" name="string" placeholder="Input string"><br><br>
+    Select charset or several charset: <select name="select" id="select" multiple="multiple">
+        <option value="utf8">UTF-8</option>
+        <option value="iso">ISO-8859-1</option>
+        <option value="windows">Windows-1252</option>
+    </select>
+    <button id="change">Change charset</button>
+    <button>Clear</button><br>
+    <br><br>
+    Input string: <input type="text" name="changedStr" placeholder="$ and $ are a currency"><br>
+    UTF-8 <input type="text" name="utf-8" placeholder="$ and $ are a currency"><br>
+    ISO-8859-1 <input type="text" name="iso" placeholder="$ and $ are a currency"><br>
+    Windows-1252 <input type="text" name="windows" placeholder="$ and $ are a currency"><br>
+    </form>
+</body>
+</html>
