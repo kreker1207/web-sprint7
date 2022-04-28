@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session</title>
+</head>
+<body>
+    <h1>Session for new</h1>
+    <form action="/" method="POST">
+        <fieldset>
+            <legend>About Hero</legend>
+            <label for="name">Real Name</label>
+            <input type="text" name="name" id="name" placeholder="Tell your name" /><br/><br>
+            <label for="alias">Current Alias</label>
+            <input type="text" name="alias" id="alias" placeholder="Hero" /><br /><br>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" /><br /><br>
+            <label for="description">About</label>
+            <textarea rows="5" cols="40" maxlength="500" id="description" name="description"></textarea><br><br>
+            <label for="photo">Your photo</label>
+            <input type="file" name="photo" id="photo"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Powers</legend>
+            <input type="checkbox" name="experience" value="strength">Strength
+            <input type="checkbox" name="experience" value="speed">Speed
+            <input type="checkbox" name="experience" value="intelligence">Intelligence
+            <input type="checkbox" name="experience" value="teleportation">Teleportation
+            <input type="checkbox" name="experience" value="immortal">Immortal
+            <input type="checkbox" name="experience" value="another">Another<br>
+            <input type="range" id="level" name="level" min="0" max="10">Level of control
+        </fieldset>
+        <fieldset>
+            <legend>Publicity</legend>
+            <input type="radio" id="purpose" name="purpose" value="unknown">
+            <label for="unknown">UNKNOWN</label>
+            <input type="radio" id="ghost" name="purpose" value="ghost">
+            <label for="ghost">LIKE S GHOST</label>
+            <input type="radio" id="comics" name="purpose" value="comics">
+            <label for="comics">I AM IN COMICS</label>
+            <input type="radio" id="club" name="purpose" value="club">
+            <label for="club">I HAVE FUN CLUB</label>
+            <input type="radio" id="star" name="purpose" value="star">
+            <label for="star">SUPERSTAR</label><br><br>
+        </fieldset>
+        <button>Clear</button>
+        <button id="submit">Send</button>
+    </form>
+</body>
+</html>
